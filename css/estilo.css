@@ -278,13 +278,13 @@ body{
     
 }
 
-.titulo23 {
+.titulo23 h1 {
     font-family: 'Bebas Neue', cursive;
     position: absolute;
-    font-size: 3rem;
+    font-size: 4rem;
     color:white;
     bottom: 60%;
-    left: 41%;
+    left: 43%;
     position: absolute;
 }
 
@@ -292,11 +292,27 @@ body{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     position: absolute;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color:white;
     bottom: 30%;
-    left: 18%;
+    left: 10%;
     position: absolute;
+}
+
+/*Boostrap*/
+
+.container{
+    background:white;
+    position: absolute;
+    color:black;
+    
+    top: 90%;
+    left: 9%;
+
+}
+.container h1 p {
+    text-align: center;
+
 }
 
 .mejorar{
@@ -307,6 +323,13 @@ body{
     text-align: center;
     padding-top: 1%;
 
+}
+
+.mb-3{
+    background: ghostwhite;
+    color: black;
+    margin: 0%;
+    padding: 0%;
 }
 
 .caja{
