@@ -61,6 +61,13 @@ body{
     
 }
 
+.alert-light{
+    background: red;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
 
 
 /*zapatillas*/
