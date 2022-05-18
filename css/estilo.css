@@ -365,12 +365,23 @@ body{
     margin: 10% 10%;
     text-align: center;
 
+    }
 
+ 
+
+
+.foto :hover{
+    transition-
+    
 }
+
 .col p{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    
+
 }
+
 
 .mb-3{
     background: ghostwhite;
@@ -412,3 +423,138 @@ body{
 
     /*Media responsive*/
 
+
+    @media screen and ( max-width:1200px ) {
+
+       Body{
+           background-repeat: repeat;
+       }
+        
+        .nav {
+            width:100%;   
+          }
+
+        .frase{
+           top: 80%;
+           margin-left: 25%;
+           text-align:center;
+        }
+
+        .flex{
+          width: 90%;
+          left: 5%;
+          right: 5%;
+          top: 200%;
+        }
+
+        .boton{
+            top: 60%;
+            
+        }    
+
+        .parrafo23 p{
+            width: 100%;
+            margin-left: 1%;
+            margin-right: 2%;
+
+        }
+
+
+
+    }
+
+@media screen and ( max-width:1006px ) {
+
+    .nav a{
+        margin: 1rem;
+    }
+
+    .container{
+        width: 80%;
+        justify-content: center;
+        overflow:hidden;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .frase{
+        text-align: left;
+        font-size: 2rem;
+        top: 80%;
+     }
+
+
+     .container{
+         left: 5%;
+
+        
+    }
+
+    .titulo23 h1 {
+        left: 38%;
+    }
+
+    .parrafo23 p{
+        width: 95%;
+        margin-left: %;
+        margin-right: 1%;
+
+    }
+
+}
+
+@media screen and (max-width:686px) {
+
+    .nav a {
+        width: 100%;
+        display: block;
+        margin: 0.5%;
+        background-color: rgba(0, 0, 0, 0.274);
+        text-align: center;
+    }
+
+    .frase{
+        text-align: left;
+        font-size: 2rem;
+        top: 140%;
+     }
+
+    .flex{
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        top: 240%;
+        
+      
+      }
+
+
+    .container{
+        left: 1%;
+        top: 160%;
+        background-color: rgba(0, 0, 0, 0.274);
+        color: white;
+
+   
+   }
+
+   .titulo23 h1{
+       top: 70%;
+       background-color: rgba(0, 0, 0, 0.274);
+
+   }
+
+   .parrafo23 {
+       top: 100%;
+
+   }
+
+   .parrafo23 p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+   }
+  
+
+
+}
