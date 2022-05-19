@@ -1,0 +1,162 @@
+@media screen and ( max-width:1006px ) {
+
+    .nav a{
+        margin: 1rem;
+    }
+
+    .container{
+        top: 110%;
+        width: 80%;
+        justify-content: center;
+        overflow:hidden;
+    }
+
+
+    .fotos{
+        top: 155%;
+        animation-duration: 4s;
+    }
+    
+
+
+    @keyframes animacion{
+        from{
+            top:0%;
+        }
+        to{
+            top:155%;
+            
+        }
+   
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .frase{
+        text-align: left;
+        font-size: 2rem;
+        top: 80%;
+     }
+
+
+     .container{
+         left: 5%;
+
+        
+    }
+
+    .titulo23 h1 {
+        left: 38%;
+    }
+
+    .parrafo23 p{
+        width: 95%;
+        margin-right: 1%;
+
+    }
+
+    .fotos{
+        top: 160%;
+        animation-duration: 4s;
+    }
+    
+    }
+    
+
+
+    @keyframes animacion{
+        from{
+            top:0%;
+        }
+        to{
+            top:160%;
+            
+        }
+
+}
+
+@media screen and (max-width:686px) {
+
+    .nav a {
+        width: 100%;
+        display: block;
+        margin: 0.5%;
+        background-color: rgba(0, 0, 0, 0.274);
+        text-align: center;
+    }
+
+    .frase{
+        text-align: left;
+        font-size: 2rem;
+        top: 140%;
+     }
+
+    .flex{
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        top: 240%;
+        
+      
+      }
+
+
+    .container{
+        left: 1%;
+        top: 160%;
+        background-color: rgba(0, 0, 0, 0.274);
+        color: white;
+
+   
+   }
+
+   .titulo23 h1{
+       top: 70%;
+       background-color: rgba(0, 0, 0, 0.274);
+
+   }
+
+   .parrafo23 {
+       top: 100%;
+
+   }
+
+   .parrafo23 p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+   }
+
+   .fotos{
+
+    top: 210%;
+    animation-duration: 4s;
+}
+
+
+
+@keyframes animacion{
+    from{
+        top:0%;
+    }
+    to{
+        top:210%;
+        
+    }
+}
+
+}
+
+@media screen and (max-width:480px){
+
+    .titulo23 h1{
+        left: 30%;
+    }
+
+    .parrafo23 {
+        top: 90%;
+    }
+}
+
+}

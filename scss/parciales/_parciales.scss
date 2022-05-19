@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*Inicio*/
+  body {
+    background-image: url(../imagenes/logo.png);
+    background-repeat: repeat;
+    font-family: 'Bebas Neue', cursive;
+    
+  }
+  
+  .nav {
+    width: 100%;
+    color:$color-index;
+    font-family: 'Bebas Neue';
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    
+    }
+  
+  .nav a {
+    display: flex;
+    display: inline;
+    font-size: 2rem;
+    margin: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration:none;
+    color: white;
+
+    }
+
+  .video{
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  
+  .frase {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    bottom: 35%;
+    right: 22%;
+
+  }
+
+  /*whstaspp con transicion*/
+.conteiner-boton{
+   
+  z-index: 999;
+  transition: ease 0.3s;
+  
+}
+
+.boton{
+
+  position: fixed;
+  width: 15%;
+  top: 75%;
+  left: 87%;
+  margin: -2%;
+  
+}
+
+
+.boton:hover{
+  transform: scale(2);
+  transition: ease 1s;
+  -webkit-transition: ease 1s;
+  -moz-transition: ease 1s;
+  -ms-transition: ease 1s;
+  -o-transition: ease 1s;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+}
+
+  /*footer--anidado*/
+.flex {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+    position: absolute;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    top: 170%;
+    width: 100%;
+
+    p{
+      color:$color-index;
+      font-size:$letra;
+    }
+
+  }
