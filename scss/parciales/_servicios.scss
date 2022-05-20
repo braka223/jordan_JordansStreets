@@ -2,7 +2,6 @@
 
 
 .titulo23 h1 {
-    font-family: 'Bebas Neue', cursive;
     position: absolute;
     font-size: 4rem;
     color:white;
@@ -12,14 +11,10 @@
 }
 
 .parrafo23 {
+    grid-area: parrafo23;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    position: absolute;
     font-size: 2.2rem;
     color:white;
-    bottom: 20%;
-    left: 3%;
-    position: absolute;
 }
 
 .parrafo23 p {
@@ -32,10 +27,7 @@
 
 .container{
     background:white;
-    position: absolute;
     color:black;
-    margin-right: 10%;
-    top: 80%;
 
 }
 
@@ -84,6 +76,7 @@
 
 .rounded{
     width: 30%;
+    top: 20%;
 
 
 
@@ -113,6 +106,7 @@
 .caja{
     background: black;
     color: white;
-    top: 10%;
     text-align: center;
 }
+
+

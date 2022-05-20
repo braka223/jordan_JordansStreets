@@ -12,24 +12,16 @@ body {
   font-family: 'Bebas Neue', cursive;
 }
 
-.nav {
-  width: 100%;
-  color: red;
-  font-family: 'Bebas Neue';
-  display: block;
-  padding: 0.5rem;
-  text-align: center;
-  justify-content: center;
+.navbar-brand {
+  font-size: 2.5rem;
 }
 
-.nav a {
-  display: flex;
-  display: inline;
-  font-size: 2rem;
-  margin: 3rem;
-  font-family: 'Bebas Neue', cursive;
-  text-decoration: none;
-  color: white;
+.offcanvas-header h5 {
+  font-size: 2.3rem;
+}
+
+.nav-item {
+  font-size: 1.3rem;
 }
 
 .video {
@@ -43,8 +35,8 @@ body {
   color: white;
   position: absolute;
   text-align: center;
-  bottom: 35%;
-  right: 22%;
+  bottom: 2%;
+  right: 23%;
 }
 
 /*whstaspp con transicion*/
@@ -56,7 +48,7 @@ body {
 .boton {
   position: fixed;
   width: 15%;
-  top: 75%;
+  top: 60%;
   left: 87%;
   margin: -2%;
 }
@@ -239,7 +231,6 @@ body {
 
 /*servicio*/
 .titulo23 h1 {
-  font-family: 'Bebas Neue', cursive;
   position: absolute;
   font-size: 4rem;
   color: white;
@@ -249,14 +240,10 @@ body {
 }
 
 .parrafo23 {
+  grid-area: parrafo23;
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  position: absolute;
   font-size: 2.2rem;
   color: white;
-  bottom: 20%;
-  left: 3%;
-  position: absolute;
 }
 
 .parrafo23 p {
@@ -268,10 +255,7 @@ body {
 /*Boostrap*/
 .container {
   background: white;
-  position: absolute;
   color: black;
-  margin-right: 10%;
-  top: 80%;
 }
 
 .mejorar {
@@ -334,7 +318,7 @@ body {
 .caja {
   background: black;
   color: white;
-  top: 10%;
+  top: 0%;
   text-align: center;
 }
 
