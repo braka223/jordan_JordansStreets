@@ -27,14 +27,9 @@
     grid-template-rows: auto ;
     gap: 5em;
     top: 40%;
-    left: 2%;
+    padding: 5rem;
     
     
-}
-
-.card :hover{
-    transform: translatex(15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0.2);
 }
 
 .card__foto{
@@ -42,8 +37,7 @@
     margin:0;
     width: 180px; 
     border-radius: 15px;
-    
-    
+     
 }
 
 .card__descripcion{
@@ -73,28 +67,26 @@
 
 .cards{
     
-    width: 350px;
+    width:400px;
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto ;
     gap: 5em;
-    top: 40%;
-    left: 55%;
+    top: 0%;
+    left: 220%;
+    padding: 5rem;
+    left:40rem;
 
     
     
 }
 
-.cards :hover{
-    transform: translatex(15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0.2);
-}
 
-.card__ella{
+.card__foto{
     padding: 0px;
     margin:0;
-    width: 180px; 
+    width: 200px; 
     border-radius: 15px;
     
     
