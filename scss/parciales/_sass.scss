@@ -1,0 +1,30 @@
+$redes: (
+   twitter:rgb(9, 250, 230),
+   facebook:rgb(1, 1, 255),
+   instagram:violet,
+   email:red
+    );
+
+
+@each $clave,$valor in $redes { 
+    .btn-#{$clave} {
+        color:$valor;
+    }
+    
+}/*extenden*/
+.btn{
+    @extend.btn;
+    display:inline-block;
+    margin-top: 65rem;
+    }
+    
+    /*mixin*/
+    
+    @mixin sizes ($width, $height){
+        height:$height;
+        width:$width;
+    }
+    
+    .frase{
+        @include sizes(50%,100px )
+    }

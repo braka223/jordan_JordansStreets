@@ -1,4 +1,32 @@
 /* asi se forman las variables*/
+.btn-twitter {
+  color: #09fae6;
+}
+
+.btn-facebook {
+  color: #0101ff;
+}
+
+.btn-instagram {
+  color: violet;
+}
+
+.btn-email {
+  color: red;
+}
+
+/*extenden*/
+.btn {
+  display: inline-block;
+  margin-top: 65rem;
+}
+
+/*mixin*/
+.frase {
+  height: 100px;
+  width: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -84,6 +112,13 @@ body {
 .flex p {
   color: red;
   font-size: 2rem;
+}
+
+.btn {
+  display: flex;
+  padding: 2rem;
+  font-size: 2rem;
+  margin-left: 35%;
 }
 
 .fotos {
