@@ -1,55 +1,47 @@
 /*Ropa*/
 
-.Body{ 
-    display: flex;
-    justify-content: center;
-}
-
-.ropa{
-    
-    width: 400px;
-    position: absolute;
+.gridropa{
     display: grid;
-    grid-template-columns: 1fr 1fr   ;
-    grid-template-rows: auto ;
-    gap: 5em;
-    top: 40%;
-    margin-left: 4%;
-  
-    
+    grid-template-areas: 'ropa1 ropa2 ropa5 ropa6'
+                         'ropa3 ropa4 ropa7 ropa8'
+    ;
+
+    gap:5rem;
+    margin-top: 5rem;
+    padding: 10%;
+   
 }
 
-.mujer{
-    width: 400px;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr   ;
-    grid-template-rows: auto ;
-    gap: 5em;
-    margin-left: 10%;
-    left: 170%;
-
-}
-
-
-.card__ropa{
-    padding: 0px;
-    margin:0;
-    width: 300px; 
-    border-radius: 15px;
-    
-    
-}
-
-.cardropa{
-    width: 100%;
+.ropadescripcion{
     background-color: black;
     color: white;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    border-radius: 15px;
-    font-family: 'Teko', sans-serif;
     font-size: 1.5rem;
+    border-bottom: 15%;
+
 }
 
+.card__ropa{
+    background-color: black;
+    padding: 0px;
+    margin:0;
+    width: 200px; 
+    border-radius: 15px;
+
+}
+
+
+.ropa1{
+    grid-area: ropa1;
+}
+
+.ropa2{
+    grid-area: ropa2;
+}
+
+.ropa3{
+    grid-area: ropa3;
+}
+
+.ropa4{
+    grid-area: ropa4;
+}

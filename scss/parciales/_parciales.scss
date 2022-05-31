@@ -12,6 +12,12 @@
     
   }
 
+  .nikeszapa{
+    justify-content: center;
+    overflow: hidden;
+
+  }
+
 
   .navbar-brand{
     font-size: 2.5rem;
@@ -44,6 +50,41 @@
     right: 23%;
 
   }
+
+.button{
+  font-size: 2.5rem;
+  margin-left: 32%;
+
+
+
+  .btn-twitter{
+    
+    background: none;
+
+  }
+
+  .btn-instagram{
+    
+    background: none;
+
+  }
+
+  .btn-facebook{
+    
+    background: none;
+
+  }
+
+  .btn-email {
+  
+      background: none;
+
+    }
+  
+    }
+
+  
+
 
   /*whstaspp con transicion*/
 .conteiner-boton{
@@ -94,15 +135,69 @@
     p{
       color:$color-index;
       font-size:$letra;
-    }
+    } 
+  }
+
+
+  /*footer*/
+
+
+  .conteiner1{
+    padding-top: 50%;
+  }
+
+  .row{
+    background:rgb(94, 82, 82);
+    color:white;
 
   }
 
-  .btn{
-    display: flex;
-    padding: 2rem;
+
+  .pie{
+    padding: 1rem;
     font-size: 2rem;
-    margin-left: 35%;
-    
 
   }
+
+  .pais{
+    font-size:1.3rem ;
+    color: black;
+    padding-left: 1rem;
+  }
+
+  .footer-titulos{
+    padding: 1rem;
+    font-size: 1.5rem;
+
+  }
+
+ .links{
+   text-decoration: none;
+   color: black;
+   font-size: 1.3rem ;
+   padding-left: 1rem;
+ }
+
+
+ .footer{
+  
+  display:inline;
+
+ }
+
+ .copy{
+   float: left;
+   font-size: 2rem;
+   margin: 2rem;
+ }
+
+
+ .email{
+  font-size: 2rem;
+  margin: 2rem;
+  float: right;
+  
+
+ }
+
+ 

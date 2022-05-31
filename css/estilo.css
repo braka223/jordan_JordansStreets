@@ -16,11 +16,6 @@
 }
 
 /*extenden*/
-.btn {
-  display: inline-block;
-  margin-top: 65rem;
-}
-
 /*mixin*/
 .frase {
   height: 100px;
@@ -38,6 +33,11 @@ body {
   background-image: url(../imagenes/logo.png);
   background-repeat: repeat;
   font-family: 'Bebas Neue', cursive;
+}
+
+.nikeszapa {
+  justify-content: center;
+  overflow: hidden;
 }
 
 .navbar-brand {
@@ -65,6 +65,27 @@ body {
   text-align: center;
   bottom: 2%;
   right: 23%;
+}
+
+.button {
+  font-size: 2.5rem;
+  margin-left: 32%;
+}
+
+.button .btn-twitter {
+  background: none;
+}
+
+.button .btn-instagram {
+  background: none;
+}
+
+.button .btn-facebook {
+  background: none;
+}
+
+.button .btn-email {
+  background: none;
 }
 
 /*whstaspp con transicion*/
@@ -114,11 +135,53 @@ body {
   font-size: 2rem;
 }
 
-.btn {
-  display: flex;
-  padding: 2rem;
+/*footer*/
+.conteiner1 {
+  padding-top: 50%;
+}
+
+.row {
+  background: #5e5252;
+  color: white;
+}
+
+.pie {
+  padding: 1rem;
   font-size: 2rem;
-  margin-left: 35%;
+}
+
+.pais {
+  font-size: 1.3rem;
+  color: black;
+  padding-left: 1rem;
+}
+
+.footer-titulos {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+
+.footer {
+  display: inline;
+}
+
+.copy {
+  float: left;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.email {
+  font-size: 2rem;
+  margin: 2rem;
+  float: right;
 }
 
 .fotos {
@@ -135,36 +198,54 @@ body {
 }
 
 /*Cards zapatillas para el*/
-.card {
-  background: none;
-  width: 400px;
-  position: absolute;
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 5em;
-  top: 40%;
-  padding: 5rem;
+  grid-template-areas: 'grid1 grid2 grid5 grid6' 'grid3 grid4 grid7 grid8';
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 5rem;
+  margin-top: 5rem;
+  padding: 10%;
+  text-align: center;
 }
 
-.card__foto {
-  padding: 0px;
-  margin: 0;
-  width: 180px;
-  border-radius: 15px;
-}
-
-.card__descripcion {
-  width: 100%;
+.descripcionzapa {
   background-color: black;
   color: white;
-  padding: 0;
-  margin: 0;
-  margin-left: 15%;
-  text-align: center;
-  border-radius: 15px;
-  font-family: 'Teko', sans-serif;
   font-size: 1.5rem;
+  border-bottom: 15%;
+}
+
+.grid1 {
+  grid-area: grid1;
+}
+
+.grid2 {
+  grid-area: grid2;
+}
+
+.grid3 {
+  grid-area: grid3;
+}
+
+.grid4 {
+  grid-area: grid4;
+}
+
+.grid5 {
+  grid-area: grid5;
+}
+
+.grid6 {
+  grid-area: grid6;
+}
+
+.grid7 {
+  grid-area: grid7;
+}
+
+.grid8 {
+  grid-area: grid8;
 }
 
 /*Cards zapatillas para ella*/
@@ -178,11 +259,9 @@ body {
 }
 
 .cards {
-  width: 400px;
-  position: absolute;
+  width: 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
   gap: 5em;
   top: 0%;
   left: 220%;
@@ -191,6 +270,7 @@ body {
 }
 
 .card__foto {
+  background-color: black;
   padding: 0px;
   margin: 0;
   width: 200px;
@@ -209,51 +289,70 @@ body {
   font-size: 1.5rem;
 }
 
+/*footer*/
+.row {
+  padding: 0rem;
+  background: #5e5252;
+  color: white;
+}
+
+.pie {
+  font-size: 2rem;
+}
+
+.pais {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.footer-titulos {
+  font-size: 1.5rem;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
 /*Ropa*/
-.Body {
-  display: flex;
-  justify-content: center;
+.gridropa {
+  display: grid;
+  grid-template-areas: 'ropa1 ropa2 ropa5 ropa6' 'ropa3 ropa4 ropa7 ropa8';
+  gap: 5rem;
+  margin-top: 5rem;
+  padding: 10%;
 }
 
-.ropa {
-  width: 400px;
-  position: absolute;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 5em;
-  top: 40%;
-  margin-left: 4%;
-}
-
-.mujer {
-  width: 400px;
-  position: absolute;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 5em;
-  margin-left: 10%;
-  left: 170%;
+.ropadescripcion {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 15%;
 }
 
 .card__ropa {
+  background-color: black;
   padding: 0px;
   margin: 0;
-  width: 300px;
+  width: 200px;
   border-radius: 15px;
 }
 
-.cardropa {
-  width: 100%;
-  background-color: black;
-  color: white;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  border-radius: 15px;
-  font-family: 'Teko', sans-serif;
-  font-size: 1.5rem;
+.ropa1 {
+  grid-area: ropa1;
+}
+
+.ropa2 {
+  grid-area: ropa2;
+}
+
+.ropa3 {
+  grid-area: ropa3;
+}
+
+.ropa4 {
+  grid-area: ropa4;
 }
 
 /*servicio*/
@@ -297,54 +396,40 @@ body {
   text-align: center;
 }
 
-.fotos {
-  display: inline-flex;
-  position: absolute;
-  justify-content: center;
-  margin: 0;
-  padding: 0%;
-  top: 115%;
-  padding-left: 15%;
-  left: 0%;
-  border: 100px;
-  animation-name: animacion;
-  animation-duration: 5s;
-}
-
-@keyframes animacion {
-  from {
-    top: 0px;
-  }
-  to {
-    top: 700px;
-  }
-}
-
 .rounded {
   width: 30%;
   top: 20%;
-}
-
-.col p {
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-}
-
-.mb-3 {
-  background: ghostwhite;
-  color: black;
-  font-size: 3rem;
-}
-
-.btn-dark {
-  color: white;
-  float: right;
 }
 
 .caja {
   background: black;
   color: white;
   text-align: center;
+}
+
+.columa {
+  text-align: center;
+  padding: 7rem;
+}
+
+.infoser {
+  text-align: center;
+}
+
+.mb-3 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: ghostwhite;
+  color: black;
+  font-size: 2rem;
+}
+
+.btn-dark {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: white;
 }
 
 /*quienes somos*/
@@ -368,9 +453,94 @@ body {
   margin-top: 20%;
 }
 
+.columa {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col p {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.fotos {
+  display: inline-flex;
+  position: absolute;
+  justify-content: center;
+  margin: 0;
+  padding: 0%;
+  top: 100%;
+  padding-left: 15%;
+  left: 0%;
+  border: 100px;
+  animation-name: animacion;
+  animation-duration: 5s;
+}
+
+@keyframes animacion {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 680px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
-  .cards {
-    padding-left: 1rem;
+  .fotos {
+    top: 138%;
+  }
+  @keyframes animacion {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 740px;
+    }
+  }
+}
+
+@media screen and (max-width: 1148px) {
+  /*zapatillas*/
+  .grid {
+    display: grid;
+    grid-template-areas: 'grid1 grid2 grid5 grid6' 'grid3 grid4 grid7 grid8';
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    padding-right: 5rem;
+  }
+  /*ropa*/
+  .gridropa {
+    display: grid;
+    grid-template-areas: 'ropa1 ropa2 ropa5 ropa6' 'ropa3 ropa4 ropa7 ropa8';
+    gap: 2rem;
+    padding-right: 5rem;
+  }
+  /*quienes somos*/
+  .tituloquienes {
+    margin-top: 5%;
+  }
+  .frasejordan {
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 10%;
+    font-size: 2rem;
+    margin-top: 30%;
+  }
+  .mb-3 {
+    width: 80%;
+    top: 300%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .form-label {
+    font-size: 2rem;
+  }
+  .btn-dark {
+    margin-right: 10%;
+    font-size: 1.5rem;
   }
   /*servicios*/
   .container {
@@ -389,7 +559,66 @@ body {
   }
 }
 
+.flex {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 1016px) {
+  .fotos {
+    top: 150%;
+  }
+  @keyframes animacion {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 810px;
+    }
+  }
+}
+
 @media screen and (max-width: 991px) {
+  /*zapatillas*/
+  .grid {
+    display: grid;
+    grid-template-areas: 'grid1 grid5' 'grid2 grid6' 'grid3 grid7' 'grid4 grid8';
+    gap: 8rem;
+    width: 100%;
+    padding-left: 12rem;
+  }
+  .descripcionzapa {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border-bottom: 15%;
+    text-align: center;
+  }
+  .grid1 {
+    grid-area: grid1;
+  }
+  .grid2 {
+    grid-area: grid2;
+  }
+  .grid3 {
+    grid-area: grid3;
+  }
+  .grid4 {
+    grid-area: grid4;
+  }
+  .grid5 {
+    grid-area: grid5;
+  }
+  .grid6 {
+    grid-area: grid6;
+  }
+  .grid7 {
+    grid-area: grid7;
+  }
+  .grid8 {
+    grid-area: grid8;
+  }
   .container {
     width: 100%;
     margin-left: 8rem;
@@ -398,35 +627,110 @@ body {
   .fotos {
     margin-left: 4rem;
   }
+  /*ropa*/
+  .gridropa {
+    display: grid;
+    grid-template-areas: 'ropa1 ropa5' 'ropa2 ropa6' 'ropa3 ropa7' 'ropa4 ropa8';
+    gap: 15rem;
+    padding-left: 12rem;
+  }
+  .gridropa {
+    width: 10px;
+  }
+  /*footer*/
+  /*quienes*/
+  .tituloquienes {
+    top: 5%;
+  }
+  .tituloquienes {
+    left: 37%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .frasejordan {
+    margin-top: 40%;
+    font-size: 1.6rem;
+  }
+  .form-label {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .fotos {
+    top: 155%;
+  }
+  @keyframes animacion {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 835px;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .gridropa {
+    padding-left: 13%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .card {
+  .grid {
     display: grid;
-    padding: 2rem;
-    padding-left: 7rem;
+    grid-template-areas: 'grid1' 'grid2' 'grid3' 'grid4' 'grid5' 'grid6' 'grid7' 'grid8';
+    gap: 5rem;
   }
-  .card__descripcion {
-    width: 100%;
+  .grid1 {
+    grid-area: grid1;
   }
-  .cards {
-    display: grid;
-    left: 2%;
-    top: 120%;
-    width: 95%;
-    margin: 0rem;
-    margin-right: 10rem;
-    padding-left: 7rem;
+  .grid2 {
+    grid-area: grid2;
   }
-  .flex {
-    display: inline;
-    top: 310%;
-    padding-left: 15rem;
+  .grid3 {
+    grid-area: grid3;
+  }
+  .grid4 {
+    grid-area: grid4;
+  }
+  .grid5 {
+    grid-area: grid5;
+  }
+  .grid6 {
+    grid-area: grid6;
+  }
+  .grid7 {
+    grid-area: grid7;
+  }
+  .grid8 {
+    grid-area: grid8;
   }
   .frase {
     text-align: left;
     font-size: 2rem;
     top: 80%;
+  }
+  /*ropa*/
+  .gridropa {
+    display: grid;
+    grid-template-areas: 'ropa1'  'ropa2' 'ropa3' 'ropa4' 'ropa5' 'ropa6' 'ropa7' 'ropa8';
+    gap: 7rem;
+    padding-left: 18rem;
+    padding-right: 8rem;
+  }
+  /*quienes somos*/
+  .tituloquienes h1 {
+    width: 100%;
+  }
+  .tituloquienes {
+    left: 15rem;
+  }
+  .frasejordan {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    width: 100%;
   }
   /*servicio*/
   .container {
@@ -441,7 +745,7 @@ body {
     margin-right: 1%;
   }
   .fotos {
-    top: 170%;
+    top: 160%;
     animation-duration: 4s;
   }
   .container {
@@ -451,15 +755,7 @@ body {
     margin-top: 30%;
   }
   .fotos {
-    margin-left: 4rem;
-  }
-  @keyframes animacion {
-    from {
-      top: 0%;
-    }
-    to {
-      top: 171%;
-    }
+    margin-left: 2rem;
   }
 }
 
@@ -469,10 +765,15 @@ body {
     font-size: 2rem;
     top: 140%;
   }
-  .flex {
-    display: inline;
-    top: 310%;
-    padding-left: 10rem;
+  /*quienes somos*/
+  .tituloquienes {
+    left: 30%;
+  }
+  .frasejordan {
+    margin-top: 20rem;
+  }
+  .mb-3 {
+    margin-left: 4rem;
   }
   /*servicio*/
   .container {
@@ -526,25 +827,24 @@ body {
     margin-left: 9%;
     margin-right: 1%;
   }
+}
+
+.gridropa {
+  padding-left: 13rem;
+}
+
+@media screen and (max-width: 591px) {
   .fotos {
-    margin: 0%;
-    left: 13%;
-    padding: 0%;
-    width: 100%;
-    top: 235%;
-    animation-duration: 4s;
-  }
-  @keyframes animacion {
-    from {
-      top: 0%;
-    }
-    to {
-      top: 235%;
-    }
+    display: none;
   }
 }
 
 @media screen and (max-width: 480px) {
+  /*zapas*/
+  .grid {
+    padding-left: 8rem;
+    gap: 2rem;
+  }
   .frase {
     width: 70%;
     text-align: center;
@@ -572,8 +872,32 @@ body {
   .card__descripcion p {
     width: 90%;
   }
+  /*quienes somos*/
+  .tituloquienes {
+    top: 15%;
+    left: 20%;
+  }
+  .frasejordan {
+    font-size: 1.3rem;
+  }
   .flex {
-    top: 200%;
+    top: 400%;
+  }
+  .form-label {
+    font-size: 1.2rem;
+  }
+  /*ropa*/
+  .gridropa {
+    padding-left: 9rem;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .grid {
+    padding-left: 6rem;
+  }
+  .card__foto {
+    width: 150px;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

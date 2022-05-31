@@ -16,42 +16,65 @@
 
 /*Cards zapatillas para el*/
 
-
-
-.card{
-    background: none;
-    width: 400px;
-    position: absolute;
+.grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto ;
-    gap: 5em;
-    top: 40%;
-    padding: 5rem;
-    
-    
+    grid-template-areas: 'grid1 grid2 grid5 grid6'
+                         'grid3 grid4 grid7 grid8'
+                         
+
+    ;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap:5rem;
+    margin-top: 5rem;
+    padding: 10%;
+    text-align: center;
 }
 
-.card__foto{
-    padding: 0px;
-    margin:0;
-    width: 180px; 
-    border-radius: 15px;
-     
-}
-
-.card__descripcion{
-    width: 100%;
+.descripcionzapa{
     background-color: black;
     color: white;
-    padding: 0;
-    margin: 0;
-    margin-left: 15%;
-    text-align: center;
-    border-radius: 15px;
-    font-family: 'Teko', sans-serif;
     font-size: 1.5rem;
+    border-bottom: 15%;
 }
+
+.grid1{
+
+    grid-area:grid1;
+    
+    }
+.grid2{
+    grid-area:grid2;
+
+}
+.grid3{
+    grid-area: grid3;
+
+}
+.grid4{
+    grid-area: grid4;
+
+
+}
+.grid5{
+    grid-area: grid5;
+
+}
+.grid6{
+    grid-area: grid6;
+
+}
+.grid7{
+    grid-area: grid7;
+
+}
+.grid8{
+    grid-area: grid8;
+
+}
+
+
+
 
 /*Cards zapatillas para ella*/
 
@@ -67,11 +90,11 @@
 
 .cards{
     
-    width:400px;
-    position: absolute;
+    width:30px;
+   
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto ;
+    grid-template-columns: auto auto auto auto;
+    
     gap: 5em;
     top: 0%;
     left: 220%;
@@ -84,6 +107,7 @@
 
 
 .card__foto{
+    background-color: black;
     padding: 0px;
     margin:0;
     width: 200px; 
@@ -103,3 +127,36 @@
     font-family: 'Teko', sans-serif;
     font-size: 1.5rem;
 }
+
+/*footer*/
+
+.row{
+    padding: 0rem;
+    background:rgb(94, 82, 82);
+    color:white;
+
+  }
+
+
+  .pie{
+    font-size: 2rem;
+
+  }
+
+  .pais{
+    font-size:1.3rem ;
+    color: black;
+  }
+
+  .footer-titulos{
+    font-size: 1.5rem;
+
+  }
+
+ .links{
+   text-decoration: none;
+   color: black;
+   font-size:1.3rem ;
+ }
+
+ 

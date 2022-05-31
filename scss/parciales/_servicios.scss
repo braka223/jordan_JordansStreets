@@ -23,6 +23,7 @@
 
 /*Boostrap*/
 
+
 .container{
     background:white;
     color:black;
@@ -40,6 +41,8 @@
 
 }
 
+
+
 .container{
     width: 90%;
     margin: 10%;
@@ -48,30 +51,6 @@
     }
 
  
-.fotos{
-    display:inline-flex;
-    position: absolute;
-    justify-content: center;
-    margin: 0;
-    padding: 0%;
-    top: 115%;
-    padding-left: 15%;
-    left: 0%;
-    border: 100px;
-    animation-name: animacion;
-    animation-duration: 5s;
-}
-
-@keyframes animacion{
-    from{
-        top:0px;
-    }
-    to{
-       top:700px;
-        
-    }
-
-}
 
 .rounded{
     width: 30%;
@@ -81,24 +60,6 @@
 
 
 
-.col p{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    
-
-}
-
-
-.mb-3{
-    background: ghostwhite;
-    color: black;
-    font-size:3rem;
-}
-
-.btn-dark{
-    color:white;
-    float: right;
-}
 
 .caja{
     background: black;
@@ -106,3 +67,31 @@
     text-align: center;
 }
 
+
+.columa{
+    text-align: center;
+    padding: 7rem;
+}
+
+.infoser{
+    text-align: center;
+
+}
+
+.mb-3{
+    width: 80%;
+    margin-left:10% ;
+    margin-right: 10%;
+    background: ghostwhite;
+    color: black;
+    font-size:2rem;
+}
+
+.btn-dark{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    color:white;
+    
+
+}    
