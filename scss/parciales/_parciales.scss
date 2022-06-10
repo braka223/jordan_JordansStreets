@@ -6,21 +6,27 @@
   
   /*Inicio*/
   body {
-    background-image: url(../imagenes/logo.png);
-    background-repeat: repeat;
+
+   background-image:linear-gradient( white , black) ;
+   height: 100%;
+   width: 100%;
     font-family: 'Bebas Neue', cursive;
+
+
     
   }
 
   .nikeszapa{
-    justify-content: center;
+    justify-content:center;
     overflow: hidden;
+   
 
   }
 
 
   .navbar-brand{
     font-size: 2.5rem;
+  
 
   
   }
@@ -34,10 +40,7 @@
   }
   
 
-  .video{
-    overflow:hidden;
-    justify-content: center;
-  }
+  
   
   
   .frase {
@@ -50,6 +53,9 @@
     right: 23%;
 
   }
+
+
+  /*
 
 .button{
   font-size: 2.5rem;
@@ -83,6 +89,8 @@
   
     }
 
+    */
+
   
 
 
@@ -100,6 +108,7 @@
   width: 15%;
   top: 60%;
   left: 87%;
+  margin-right: 5rem;
   margin: -2%;
   
 }
@@ -118,44 +127,25 @@
   -o-transform: scale(2);
 }
 
-  /*footer--anidado*/
-.flex {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Teko', sans-serif;
-    position: absolute;
-    display: inline-block;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3rem;
-    top: 170%;
-    width: 100%;
 
-    p{
-      color:$color-index;
-      font-size:$letra;
-    } 
-  }
 
 
   /*footer*/
 
 
-  .conteiner1{
-    padding-top: 50%;
-  }
-
   .row{
     background:rgb(94, 82, 82);
     color:white;
+    padding: 0%;
+    margin: 0%;
+
 
   }
 
 
   .pie{
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
 
   }
 

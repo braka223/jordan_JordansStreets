@@ -1,5 +1,8 @@
 /*Ropa*/
 
+
+
+
 .gridropa{
     display: grid;
     grid-template-areas: 'ropa1 ropa2 ropa5 ropa6'
@@ -7,9 +10,31 @@
     ;
 
     gap:5rem;
-    margin-top: 5rem;
-    padding: 10%;
+    padding-top: 1rem;
+    padding-right: 8rem;
+    padding-bottom: 3rem;
    
+}
+
+.tituloropa{
+    display: flex;
+    padding-top: 10rem;
+    padding-bottom: 0%;
+}
+
+
+.tituloropael{
+    position: relative;
+    margin-left: 30%;
+
+}
+
+.tituloropaella{
+    position: relative;
+    margin-left: 30%;
+
+
+
 }
 
 .ropadescripcion{

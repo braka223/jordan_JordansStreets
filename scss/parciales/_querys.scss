@@ -688,3 +688,181 @@
     }
     
 }
+
+
+
+@media screen and (max-width:320px){
+
+
+    /*zapatillas*/
+
+    .carrusel{
+        margin-top: 7rem;
+       
+    }
+
+
+    .titulozapa{
+        display: block;
+        margin-left: 4rem;
+        
+     
+
+    }
+
+    .tituloel{
+        display: block;
+        position: absolute;
+        left: 18%;
+        font-size: 2rem;
+
+        
+    }
+
+    .tituloella{
+        display: block;
+        position:absolute;
+        top: 255%;
+        left: 4%;
+        font-size: 2rem;
+    }
+
+    .grid{
+        padding-top: 10%;
+
+    }
+
+    .footer p{
+        font-size: 1.5rem;
+    }
+
+
+/*ropa*/
+
+.gridropa{
+
+     padding-left: 5rem;
+     padding-top: 10rem;
+}
+
+
+
+.card__ropa{
+    width: 170px;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+.ropadescripcion{
+    font-size: 1.3rem;
+    justify-content: center;
+    overflow: hidden;
+
+
+ }
+
+ .tituloropael{
+     position: absolute;
+     top: 40%;
+     font-size: 2rem;
+     left: 8%;
+     color: black;
+    
+
+
+ }
+
+ .tituloropaella{
+     position: absolute;
+     font-size: 2rem;
+     left: 8%;
+     top: 290%;
+     color: black;
+
+
+ }
+
+
+
+ /*Quienes Somos*/
+
+ .tituloquienes h1{
+    
+     text-align: center;
+     
+     font-size: 3rem;
+     padding-right: 1%;
+ }
+ 
+
+ .frasejordan{
+     text-align:center;
+     width: 90%;
+     font-size: 1.1rem;
+     margin-left: 1rem;
+     margin-bottom: 5rem;
+     background-color: rgba(0, 0, 0, 0.247);
+ }
+
+.mb-3{
+    padding: 0%;
+    margin: 10%;
+}
+
+.btn-dark{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+/*Servicios*/
+
+
+.titulo23 h1{
+    left: 4rem;
+
+}
+
+
+.parrafo23{
+    font-size: 1.5rem;
+    margin-top: 50%;
+    text-align: center;
+
+}
+
+
+.columa{
+    background: none;
+    font-size: 1rem;
+    padding: 0%;
+    
+}
+
+
+
+.align-items-start{
+    display: block;
+    background: none;
+    margin: 2rem;
+
+    
+}
+
+.infoser{
+    font-size: 1.8rem;
+    color: black;
+    left: 1%;
+}
+
+
+
+
+
+}
+
+
+

@@ -3,16 +3,31 @@
 
 }
 
-
 .titulozapa{
-    position: absolute;
-    color:white;
-    top: 20%;
-    left: 20%;
-    font-size: 2rem;
-    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    color: black;
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding-bottom: 0%;
+
 
 }
+
+.tituloel{
+    display: inline;
+    margin-left: 23%;
+
+}
+
+.tituloella{
+    display: inline;
+    margin-left: 38%;
+    
+}
+
+
+
+
 
 /*Cards zapatillas para el*/
 
@@ -26,10 +41,16 @@
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     gap:5rem;
-    margin-top: 5rem;
-    padding: 10%;
+    margin-top: 5%;
+    padding-left: 5% ;
+    padding-right: 5% ;
+    padding-bottom: 5%;
     text-align: center;
+
+
 }
+
+
 
 .descripcionzapa{
     background-color: black;
@@ -78,32 +99,8 @@
 
 /*Cards zapatillas para ella*/
 
-.tituloella{
-    position: absolute;
-    color:white;
-    top: 20%;
-    left: 65%;
-    font-size: 3rem;
-    font-family: 'Bebas Neue', cursive;
-}
 
 
-.cards{
-    
-    width:30px;
-   
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-    gap: 5em;
-    top: 0%;
-    left: 220%;
-    padding: 5rem;
-    left:40rem;
-
-    
-    
-}
 
 
 .card__foto{
