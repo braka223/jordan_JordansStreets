@@ -15,10 +15,25 @@
 }
 
 
-.gridropa{
-    padding-left: 6rem;
-
+.boton{
+    left: 92%;
 }
+
+.tituloropael{
+    top: 98%;
+    
+}
+
+.tituloropaella{
+    top: 98%;
+}
+
+
+.gridropa{
+    padding-left: 5rem;
+    margin-top: 1%;
+}
+
 
 }
 
@@ -221,17 +236,16 @@
 
     
     .tituloel{
-        position: absolute;
-        font-size: 2.5rem;
+        top: 95%;
+        padding-left: 16rem;
        
     }
 
 
     .tituloella{
-
         position: absolute;
-        font-size: 2.5rem;
-        left: 25rem;
+        top: 95%;
+        left: 55%;
 
     }
 
@@ -269,17 +283,22 @@
     width: 10px;
 }
 
+
+.tituloropa{
+    margin-top: 2rem;
+}
+
 .tituloropael{
     position: absolute;
 
-    margin-left: 27.5%;
-    top: 25%;
+    margin-left: 25%;
+    top: 110%;
 
 }
 
 .tituloropaella{
     position: absolute;
-    top:25% ;
+    top:110% ;
     margin-left: 65%;
 
 }
@@ -314,6 +333,14 @@
 .form-label{
     font-size: 1.6rem;
 }
+
+.gridropa{
+    padding-left: 10rem;
+}
+
+.tituloella{
+    left: 60%;
+}
     
 }
 
@@ -347,9 +374,17 @@
 
 
 .tituloella{
-    left: 23rem;
+
+        left: 60%;
+    }
+        
+
+.carousel-item{
+    padding-top: 20%;
+
 
 }
+
 
 
 }
@@ -359,10 +394,47 @@
 
 @media screen and (max-width: 850px){
 
-    .gridropa{
-        padding-left: 13%;
-    }
+   
 
+   .tituloropa{
+    padding-top: 5rem;
+   }
+
+   .tituloropael{
+    top:98%;
+    margin-left: 13rem;
+
+   }
+
+   .tituloropaella{
+    top: 98%;
+    margin-left: 33rem;
+
+   }
+
+   .gridropa{
+    gap: 8rem;
+    padding-left: 10rem;
+    padding-top: 0rem;
+
+   }
+
+
+   .frase{
+    font-size:2.7rem;
+    bottom: 20%;
+   }
+
+   .boton{
+    width: 15%;
+    left: 85%;
+   }
+
+
+   .tituloella{
+        left: 63%;
+    }
+        
 
 }
 
@@ -428,11 +500,15 @@
     }
 
     .tituloel{
-        display: none;
+        position: absolute;
+        margin-left: 17%;
+        top: 98%;
     }
 
     .tituloella{
-        display: none;
+        position: absolute;
+        left: 42%;
+        top: 350%;
     }
 
 
@@ -441,10 +517,9 @@
 
 
     .frase{
-        text-align: left;
-        font-size: 2rem;
-        top: 80%;
-     }
+        font-size:2.4rem;
+        bottom: 20%;
+       }
 
 
 
@@ -471,15 +546,15 @@
      .tituloropael{
         position: absolute;
     
-        margin-left: 45%;
-        top: 30%;
+        margin-left: 43%;
+        top: 98%;
     
     }
     
     .tituloropaella{
         position: absolute;
-        top:300% ;
-        margin-left: 45%;
+        top:365% ;
+        margin-left: 42%;
     
     }
 
@@ -550,11 +625,9 @@
 
 
     .frase{
-        text-align: left;
-        font-size: 2rem;
-        top: 140%;
-     }
-
+        font-size:2.2rem;
+        bottom: 18%;
+       }
 
 
     /*quienes somos*/
@@ -627,6 +700,10 @@
 
 }
 
+.grid{
+    padding-left: 15rem;
+}
+
 
 
 .cards{
@@ -634,6 +711,12 @@
     left: 2%;
     top: 120%;
     padding-right: 10rem;  
+
+}
+
+.carousel-item{
+    padding-top: 20%;
+
 
 }
 
@@ -657,9 +740,15 @@
 
     }
 
+
     .grid{
-        padding-left: 10rem;
-       gap: 2rem;
+        padding-left: 13rem;
+        gap: 5rem;
+   }
+
+
+   .tituloel{
+    padding-left:25% ;
    }
 
 
@@ -675,6 +764,11 @@
 
 @media screen and (max-width:591px){
 
+    .frase{
+        font-size:2.2rem;
+        bottom: 20%;
+       }
+
 
     .gridropa{
         padding-left: 10rem;
@@ -685,7 +779,20 @@
     }
 
 
+    .carousel-item{
+        padding-top: 20%;
     
+    
+    }
+
+
+ /*za´patillas*/
+
+ 
+   .grid{
+    padding-left: 8rem;
+    
+   }
 
 }
 
@@ -696,26 +803,17 @@
 
     .grid{
          padding-left: 8rem;
-        gap: 2rem;
+        gap: 5rem;
     }
 
-    .tituloel{
-        display: none;
-    }
 
-    .tituloella{
-        display: none;
-    }
 
-   
 
     .frase{
-        width: 70%;
-        text-align: center;
-        font-size: 1.3rem;
-        top: 70%;
-        left: 18%;
-    }
+        font-size:1.5rem;
+        bottom: 10%;
+       }
+
 
 
 
@@ -748,6 +846,13 @@
 
 }
 
+.carousel-item{
+    padding-top: 30%;
+
+
+}
+
+
 
 /*quienes somos*/
 
@@ -776,6 +881,22 @@
 .gridropa{
     padding-left: 9rem;
   }
+
+
+  .tituloropael{
+    position: absolute;
+    margin-left: 40%;
+    top: 98%;
+
+}
+
+.tituloropaella{
+    position: absolute;
+    top:365% ;
+    margin-left: 35%;
+
+}
+
 
 
 
@@ -842,6 +963,12 @@
         padding-left: 6rem;
     }
 
+    .carousel-item{
+        padding-top: 40%;
+    
+    
+    }
+
 }
 
 @media screen and (max-width:332px){
@@ -854,6 +981,15 @@
         width: 150px;
     }
 
+    .carousel-item{
+        padding-top: 50%;
+    
+    
+    }
+
+    .tituloella{
+        top: 325%;
+    }
    
 }
 
@@ -865,7 +1001,7 @@
     /*zapatillas*/
 
     .carrusel{
-        margin-top: 7rem;
+        margin-top: 8rem;
        
     }
 
@@ -875,17 +1011,27 @@
         padding-left: 5rem;
     }
 
-    .footer p{
-        font-size: 1.5rem;
+    .tituloella{
+        top: 330%;
+        left: 37%;
     }
+    .footer p{
+        font-size: 1rem;
+    }
+
+
 
 
 /*ropa*/
 
+
 .gridropa{
 
      padding-left: 5rem;
-     padding-top: 10rem;
+}
+
+.tituloropa{
+    padding-top: 0rem;
 }
 
 
@@ -909,16 +1055,15 @@
 
  .tituloropael{
     position: absolute;
-
-    margin-left:42%;
-    top: 60%;
+    margin-left:33%;
+    top: 75%;
 
 }
 
 .tituloropaella{
     position: absolute;
-    top:300% ;
-    margin-left:40%;
+    top:323% ;
+    margin-left:30%;
 
 }
 
@@ -993,6 +1138,31 @@
     color: black;
     left: 1%;
 }
+
+/*footer*/
+
+.footer{
+    margin: 0%;
+}
+
+.copy{
+    margin: 1%;
+    font-size: 1rem;
+}
+
+.email{
+    margin: 1%;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:286px){
+
+    .copy{
+        font-size: 1%;
+    }
+}
+
 
 
 

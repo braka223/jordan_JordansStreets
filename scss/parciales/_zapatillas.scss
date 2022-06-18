@@ -4,27 +4,29 @@
 }
 
 .titulozapa{
-    display: grid;
-    grid-template-areas: 'tituloel tituloella'
-    ;
     color: black;
-    font-size: 3rem;
-    margin-top: 2rem;
-    padding-bottom: 0%;
+    padding-top: 5rem;
+    
+
 }
 
 
 .tituloel{
-    grid-area: tituloel;
+    position: absolute;
+    top: 95%;
     padding-left: 16rem;
-    font-size: 3.5rem;
+    
+
+
 }
 
 
 .tituloella{
-    grid-area: tituloella;
-    padding-left: 10rem;
-    font-size: 3.5rem;
+    position: absolute;
+    top: 95%;
+    left: 68%;
+
+  
 }
 
 
@@ -157,6 +159,12 @@
    text-decoration: none;
    color: black;
    font-size:1.3rem ;
+ }
+
+ .carousel-item{
+    height: 30rem;
+    overflow-y: 30%;
+
  }
 
  

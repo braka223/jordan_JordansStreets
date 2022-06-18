@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* asi se forman las variables*/
 .btn-twitter {
   color: #09fae6;
@@ -106,20 +107,20 @@ body {
 
 .boton {
   position: fixed;
-  width: 15%;
-  top: 60%;
-  left: 87%;
+  width: 7%;
+  top: 77%;
+  left: 94%;
   margin-right: 5rem;
   margin: -2%;
 }
 
 .boton:hover {
   transform: scale(2);
-  transition: ease 1s;
-  -webkit-transition: ease 1s;
-  -moz-transition: ease 1s;
-  -ms-transition: ease 1s;
-  -o-transition: ease 1s;
+  transition: ease 2s;
+  -webkit-transition: ease 2s;
+  -moz-transition: ease 2s;
+  -ms-transition: ease 2s;
+  -o-transition: ease 2s;
   -webkit-transform: scale(2);
   -moz-transform: scale(2);
   -ms-transform: scale(2);
@@ -178,24 +179,20 @@ body {
 }
 
 .titulozapa {
-  display: grid;
-  grid-template-areas: 'tituloel tituloella';
   color: black;
-  font-size: 3rem;
-  margin-top: 2rem;
-  padding-bottom: 0%;
+  padding-top: 5rem;
 }
 
 .tituloel {
-  grid-area: tituloel;
+  position: absolute;
+  top: 95%;
   padding-left: 16rem;
-  font-size: 3.5rem;
 }
 
 .tituloella {
-  grid-area: tituloella;
-  padding-left: 10rem;
-  font-size: 3.5rem;
+  position: absolute;
+  top: 95%;
+  left: 68%;
 }
 
 /*Cards zapatillas para el*/
@@ -298,12 +295,17 @@ body {
   font-size: 1.3rem;
 }
 
+.carousel-item {
+  height: 30rem;
+  overflow-y: 30%;
+}
+
 /*Ropa*/
 .gridropa {
   display: grid;
   grid-template-areas: 'ropa1 ropa2 ropa5 ropa6' 'ropa3 ropa4 ropa7 ropa8';
   gap: 5rem;
-  padding-top: 1rem;
+  padding-top: 10rem;
   padding-left: 10rem;
   padding-bottom: 3rem;
   width: 150px;
@@ -311,18 +313,19 @@ body {
 
 .tituloropa {
   color: black;
-  padding-top: 15rem;
 }
 
 .tituloropael {
   position: absolute;
-  margin-left: 27.5%;
-  top: 20%;
+  font-size: 3rem;
+  margin-left: 25%;
+  top: 85%;
 }
 
 .tituloropaella {
   position: absolute;
-  top: 20%;
+  font-size: 3rem;
+  top: 85%;
   margin-left: 65%;
 }
 
@@ -503,8 +506,18 @@ body {
       top: 740px;
     }
   }
+  .boton {
+    left: 92%;
+  }
+  .tituloropael {
+    top: 98%;
+  }
+  .tituloropaella {
+    top: 98%;
+  }
   .gridropa {
-    padding-left: 6rem;
+    padding-left: 5rem;
+    margin-top: 1%;
   }
 }
 
@@ -628,13 +641,13 @@ body {
     grid-area: grid8;
   }
   .tituloel {
-    position: absolute;
-    font-size: 2.5rem;
+    top: 95%;
+    padding-left: 16rem;
   }
   .tituloella {
     position: absolute;
-    font-size: 2.5rem;
-    left: 25rem;
+    top: 95%;
+    left: 55%;
   }
   .container {
     width: 100%;
@@ -654,14 +667,17 @@ body {
   .gridropa {
     width: 10px;
   }
+  .tituloropa {
+    margin-top: 2rem;
+  }
   .tituloropael {
     position: absolute;
-    margin-left: 27.5%;
-    top: 25%;
+    margin-left: 25%;
+    top: 110%;
   }
   .tituloropaella {
     position: absolute;
-    top: 25%;
+    top: 110%;
     margin-left: 65%;
   }
   /*footer*/
@@ -681,6 +697,12 @@ body {
   }
   .form-label {
     font-size: 1.6rem;
+  }
+  .gridropa {
+    padding-left: 10rem;
+  }
+  .tituloella {
+    left: 60%;
   }
 }
 
@@ -703,13 +725,40 @@ body {
     padding-left: 13rem;
   }
   .tituloella {
-    left: 23rem;
+    left: 60%;
+  }
+  .carousel-item {
+    padding-top: 20%;
   }
 }
 
 @media screen and (max-width: 850px) {
+  .tituloropa {
+    padding-top: 5rem;
+  }
+  .tituloropael {
+    top: 98%;
+    margin-left: 13rem;
+  }
+  .tituloropaella {
+    top: 98%;
+    margin-left: 33rem;
+  }
   .gridropa {
-    padding-left: 13%;
+    gap: 8rem;
+    padding-left: 10rem;
+    padding-top: 0rem;
+  }
+  .frase {
+    font-size: 2.7rem;
+    bottom: 20%;
+  }
+  .boton {
+    width: 15%;
+    left: 85%;
+  }
+  .tituloella {
+    left: 63%;
   }
 }
 
@@ -745,15 +794,18 @@ body {
     grid-area: grid8;
   }
   .tituloel {
-    display: none;
+    position: absolute;
+    margin-left: 17%;
+    top: 98%;
   }
   .tituloella {
-    display: none;
+    position: absolute;
+    left: 42%;
+    top: 350%;
   }
   .frase {
-    text-align: left;
-    font-size: 2rem;
-    top: 80%;
+    font-size: 2.4rem;
+    bottom: 20%;
   }
   /*ropa*/
   .gridropa {
@@ -765,13 +817,13 @@ body {
   }
   .tituloropael {
     position: absolute;
-    margin-left: 45%;
-    top: 30%;
+    margin-left: 43%;
+    top: 98%;
   }
   .tituloropaella {
     position: absolute;
-    top: 300%;
-    margin-left: 45%;
+    top: 365%;
+    margin-left: 42%;
   }
   /*quienes somos*/
   .tituloquienes h1 {
@@ -814,9 +866,8 @@ body {
 
 @media screen and (max-width: 686px) {
   .frase {
-    text-align: left;
-    font-size: 2rem;
-    top: 140%;
+    font-size: 2.2rem;
+    bottom: 18%;
   }
   /*quienes somos*/
   .tituloquienes {
@@ -865,11 +916,17 @@ body {
     display: grid;
     padding-left: 7rem;
   }
+  .grid {
+    padding-left: 15rem;
+  }
   .cards {
     display: grid;
     left: 2%;
     top: 120%;
     padding-right: 10rem;
+  }
+  .carousel-item {
+    padding-top: 20%;
   }
   /*ropa*/
   .gridropa {
@@ -885,8 +942,11 @@ body {
     margin-right: 1%;
   }
   .grid {
-    padding-left: 10rem;
-    gap: 2rem;
+    padding-left: 13rem;
+    gap: 5rem;
+  }
+  .tituloel {
+    padding-left: 25%;
   }
   .email {
     float: none;
@@ -894,11 +954,22 @@ body {
 }
 
 @media screen and (max-width: 591px) {
+  .frase {
+    font-size: 2.2rem;
+    bottom: 20%;
+  }
   .gridropa {
     padding-left: 10rem;
   }
   .fotos {
     display: none;
+  }
+  .carousel-item {
+    padding-top: 20%;
+  }
+  /*za´patillas*/
+  .grid {
+    padding-left: 8rem;
   }
 }
 
@@ -906,20 +977,11 @@ body {
   /*zapas*/
   .grid {
     padding-left: 8rem;
-    gap: 2rem;
-  }
-  .tituloel {
-    display: none;
-  }
-  .tituloella {
-    display: none;
+    gap: 5rem;
   }
   .frase {
-    width: 70%;
-    text-align: center;
-    font-size: 1.3rem;
-    top: 70%;
-    left: 18%;
+    font-size: 1.5rem;
+    bottom: 10%;
   }
   .titulo23 h1 {
     left: 30%;
@@ -941,6 +1003,9 @@ body {
   .card__descripcion p {
     width: 90%;
   }
+  .carousel-item {
+    padding-top: 30%;
+  }
   /*quienes somos*/
   .tituloquienes {
     top: 15%;
@@ -958,6 +1023,16 @@ body {
   /*ropa*/
   .gridropa {
     padding-left: 9rem;
+  }
+  .tituloropael {
+    position: absolute;
+    margin-left: 40%;
+    top: 98%;
+  }
+  .tituloropaella {
+    position: absolute;
+    top: 365%;
+    margin-left: 35%;
   }
   /*servicios*/
   .titulo23 h1 {
@@ -998,6 +1073,9 @@ body {
   .grid {
     padding-left: 6rem;
   }
+  .carousel-item {
+    padding-top: 40%;
+  }
 }
 
 @media screen and (max-width: 332px) {
@@ -1007,24 +1085,36 @@ body {
   .card__foto {
     width: 150px;
   }
+  .carousel-item {
+    padding-top: 50%;
+  }
+  .tituloella {
+    top: 325%;
+  }
 }
 
 @media screen and (max-width: 320px) {
   /*zapatillas*/
   .carrusel {
-    margin-top: 7rem;
+    margin-top: 8rem;
   }
   .grid {
     padding-top: 10%;
     padding-left: 5rem;
   }
+  .tituloella {
+    top: 330%;
+    left: 37%;
+  }
   .footer p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   /*ropa*/
   .gridropa {
     padding-left: 5rem;
-    padding-top: 10rem;
+  }
+  .tituloropa {
+    padding-top: 0rem;
   }
   .card__ropa {
     width: 170px;
@@ -1041,13 +1131,13 @@ body {
   }
   .tituloropael {
     position: absolute;
-    margin-left: 42%;
-    top: 60%;
+    margin-left: 33%;
+    top: 75%;
   }
   .tituloropaella {
     position: absolute;
-    top: 300%;
-    margin-left: 40%;
+    top: 323%;
+    margin-left: 30%;
   }
   /*Quienes Somos*/
   .tituloquienes h1 {
@@ -1094,6 +1184,24 @@ body {
     font-size: 1.8rem;
     color: black;
     left: 1%;
+  }
+  /*footer*/
+  .footer {
+    margin: 0%;
+  }
+  .copy {
+    margin: 1%;
+    font-size: 1rem;
+  }
+  .email {
+    margin: 1%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-width: 286px) {
+  .copy {
+    font-size: 1%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
