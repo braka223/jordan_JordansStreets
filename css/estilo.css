@@ -375,11 +375,9 @@ body {
 
 .parrafo23 {
   color: white;
-  width: 95%;
   padding-left: 12%;
-  padding-top: 20rem;
-  font-size: 2.1rem;
-  justify-items: baseline;
+  padding-top: 25rem;
+  font-size: 2.3rem;
 }
 
 /*Boostrap*/
@@ -416,11 +414,57 @@ body {
 
 .columa {
   text-align: center;
-  padding: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 .infoser {
   text-align: center;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+.col p {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.fotos {
+  margin-left: 20rem;
+  padding-right: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+
+@keyframes animacion {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 680px;
+  }
+}
+
+/*quienes somos*/
+.tituloquienes {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 40%;
+  position: absolute;
+}
+
+.tituloquienes h1 {
+  font-size: 4rem;
+  margin-top: 30%;
+}
+
+.frasejordan {
+  color: white;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 20%;
+  padding-bottom: 5rem;
 }
 
 .mb-3 {
@@ -434,30 +478,12 @@ body {
 
 .btn-dark {
   width: 30%;
+  font-size: 1.8rem;
   margin-left: 35%;
   margin-right: 35%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   color: white;
-}
-
-/*quienes somos*/
-.tituloquienes {
-  position: absolute;
-  color: white;
-  top: 10%;
-  left: 40%;
-  position: absolute;
-}
-
-.tituloquienes h1 {
-  font-size: 3.8rem;
-  margin-top: 30%;
-}
-
-.frasejordan {
-  color: white;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 20%;
 }
 
 .columa {
@@ -466,37 +492,23 @@ body {
   margin-right: 5%;
 }
 
-.col p {
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-}
-
-.fotos {
-  display: inline-flex;
-  position: absolute;
-  justify-content: center;
-  margin: 0;
-  padding: 0%;
-  top: 100%;
-  padding-left: 15%;
-  left: 0%;
-  border: 100px;
-  animation-name: animacion;
-  animation-duration: 5s;
-}
-
-@keyframes animacion {
-  from {
-    top: 0px;
-  }
-  to {
-    top: 680px;
-  }
-}
-
 @media screen and (max-width: 1200px) {
+  /*quienes somos*/
+  .frasejordan {
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 5rem;
+  }
+  /*Servicios*/
+  .parrafo23 {
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
   .fotos {
-    top: 138%;
+    margin-left: 15rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
   }
   @keyframes animacion {
     from {
@@ -541,13 +553,6 @@ body {
   /*quienes somos*/
   .tituloquienes {
     margin-top: 5%;
-  }
-  .frasejordan {
-    width: 100%;
-    margin-left: 1%;
-    margin-right: 10%;
-    font-size: 2rem;
-    margin-top: 30%;
   }
   .mb-3 {
     width: 80%;
@@ -655,7 +660,10 @@ body {
     padding-right: 4rem;
   }
   .fotos {
-    margin-left: 4rem;
+    margin-left: 12rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
   }
   /*ropa*/
   .gridropa {
@@ -760,6 +768,12 @@ body {
   .tituloella {
     left: 63%;
   }
+  .fotos {
+    margin-left: 10rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -850,17 +864,16 @@ body {
     margin-right: 1%;
   }
   .fotos {
-    top: 160%;
-    animation-duration: 4s;
+    margin-left: 10rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
   }
   .container {
     width: 100%;
     margin-left: 7rem;
     padding-right: 1rem;
     margin-top: 30%;
-  }
-  .fotos {
-    margin-left: 2rem;
   }
 }
 
@@ -900,16 +913,10 @@ body {
     background-color: rgba(0, 0, 0, 0.425);
   }
   .fotos {
-    top: 210%;
-    animation-duration: 4s;
-  }
-  @keyframes animacion {
-    from {
-      top: 0%;
-    }
-    to {
-      top: 210%;
-    }
+    margin-left: 8rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
   }
   /*zapatillas*/
   .card {
@@ -960,6 +967,16 @@ body {
   }
   .gridropa {
     padding-left: 10rem;
+  }
+  .columa {
+    background: none;
+    font-size: 1rem;
+    padding: 0%;
+  }
+  .align-items-start {
+    display: block;
+    background: none;
+    margin: 2rem;
   }
   .fotos {
     display: none;

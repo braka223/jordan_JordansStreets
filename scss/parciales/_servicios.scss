@@ -14,11 +14,10 @@
 
 .parrafo23 {
     color: white;
-    width: 95%;
     padding-left: 12%;
-    padding-top: 20rem;
-    font-size: 2.1rem;
-    justify-items:baseline;
+    padding-top: 25rem;
+    font-size: 2.3rem;
+    
 }
 
 /*Boostrap*/
@@ -70,28 +69,41 @@
 
 .columa{
     text-align: center;
-    padding: 7rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 .infoser{
     text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
 
 }
 
-.mb-3{
-    width: 80%;
-    margin-left:10% ;
-    margin-right: 10%;
-    background: ghostwhite;
-    color: black;
-    font-size:2rem;
+
+.col p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-.btn-dark{
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
-    color:white;
+
+.fotos{
+    margin-left: 20rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+       
+    }
     
-
-}    
+    @keyframes animacion{
+        
+        from{
+            top:0px;
+        }
+        to{
+           top:680px;
+            
+        }
+        
+    
+        }

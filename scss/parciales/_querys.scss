@@ -1,7 +1,28 @@
 @media screen and (max-width: 1200px){
+
+
+  /*quienes somos*/
+  
+  .frasejordan{
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 5rem;
+  }
+
+
+/*Servicios*/
+
+.parrafo23{
+    padding-left: 2rem;
+    padding-right: 1rem;
+
+}
     
     .fotos{
-        top: 138%;
+        margin-left: 15rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 8rem
     }
 
     @keyframes animacion{
@@ -87,14 +108,7 @@
     margin-top: 5%;
 }
 
-.frasejordan{
-    width: 100%;
-    margin-left: 1%;
-    margin-right: 10%;
-    font-size: 2rem;
-    margin-top: 30%;
-    
-}
+
 
 .mb-3{
     width: 80%;
@@ -259,9 +273,13 @@
         padding-right: 4rem;
       }
 
-    .fotos{
-        margin-left: 4rem;
-    }
+      .fotos{
+        margin-left: 12rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+           
+        }
 
 
     /*ropa*/
@@ -434,6 +452,14 @@
    .tituloella{
         left: 63%;
     }
+
+    .fotos{
+        margin-left: 10rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+           
+        }
         
 
 }
@@ -599,8 +625,12 @@
     }
 
     .fotos{
-        top: 160%;
-        animation-duration: 4s;
+
+        margin-left: 10rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+       
     }
 
     .container{
@@ -610,10 +640,7 @@
         margin-top: 30%;
       }
 
-    .fotos{
-        margin-left: 2rem;
-
-    }
+   
 
     
 
@@ -675,22 +702,14 @@
    }
 
    .fotos{
-
-    top: 210%;
-    animation-duration: 4s;
-}
-
-
-@keyframes animacion{
-    from{
-        top:0%;
-    }
-    to{
-        top:210%;
-        
+    margin-left: 8rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+       
     }
 
-    }
+
 
 /*zapatillas*/
 
@@ -772,6 +791,21 @@
 
     .gridropa{
         padding-left: 10rem;
+    }
+
+    .columa{
+        background: none;
+        font-size: 1rem;
+        padding: 0%;
+        
+    }
+
+    .align-items-start{
+        display: block;
+        background: none;
+        margin: 2rem;
+    
+        
     }
 
     .fotos{
